@@ -1,0 +1,746 @@
+@import "/css/imports/variables.css";
+@import "/css/imports/ctas.css";
+
+
+/* Global if phone and tablet */
+
+.box-container > ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav-i-desktop .cart-li {
+  padding-top: 0px !important;
+
+}
+
+.box-container, .logo-container, nav, .nav-i-desktop, .header-container, hr, .img-container, .green-img, .sitemap, .about-container, .contact-container, .decor-img, .all-jackets-container, .checkout-container, .checkout-container-cart, .checkout-container-info, .checkout-container-delivery, #cart-checkout main fieldset, .specific-jacket, footer form, .women-product-list, .men-product-list, .input-container, fieldset select option {
+  overflow: hidden;
+}
+
+header div li, nav, #menu-checkbox {
+  display: none;
+}
+
+#menu-checkbox:checked ~ .bottom-divider {
+  display: none;
+}
+
+.border, .women-product-list, .men-product-list {
+  display: grid;
+}
+
+.women-product-list, .men-product-list {
+  grid-template-columns: repeat(2, 3fr);
+  grid-gap: 30px;
+}
+
+.border {
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0px 0px 20px 0px;
+}
+
+.sitemap, .about-container, .contact-container, .all-jackets-container, .checkout-success-container, .img-container-checkout-success {
+  display: flex 1;
+}
+
+.logo-container, .hr-half, .img-container, .green-img, .bottom-divider, .jacket-specific-title-container, .specific-jacket-container, .specific-jacket, .original-jacket img, .jacket-info, .jacket-cta, .summary, .center-content {
+  display: flex;
+}
+
+.selected-jacket img {
+  display: inline-flex;
+}
+
+.summary, .checkout-container-delivery fieldset, .jacket-cta, .jacket-info, .center-content, .specific-jacket-container, .specific-jacket, .logo-container, .jacket-description-container {
+  justify-content: center;
+}
+
+.circle, .description-space {
+  display: inline-block;
+}
+
+hr, .input-container, footer form, footer button, #jacket-specific-women select, #jacket-specific-men select, #jacket-specific-women main label, #jacket-specific-men main label, .jacket-description-container,  .women-jacket-products img, .men-jacket-products img, .border-summary, .img-welcomeback img, .hiking-benefits img {
+  display: block;
+}
+
+#menu-checkbox:checked ~ nav {
+  display: block; 
+  position: relative;
+  overflow: hidden;
+}
+
+header form, hr, .checkout-success-container {
+  position: relative;
+}
+
+.logo-container {
+  position: absolute;
+}
+
+header button {
+  width: 14%;
+}
+
+.about-container, .contact-container, #checkout-success main hr {
+  width: 50%;
+}
+
+#jacket-specific-women select, #jacket-specific-men select, .specific-jacket-container  {
+  width: 70%;
+}
+
+.specific-jacket-container {
+  margin: 0 auto !important;
+}
+
+header input[type="text"], .hr-half, footer hr, .checkout-container-delivery fieldset, .checkout-success-container, .checkout-container-info, .checkout-container-cart {
+  width: 80%;
+}
+
+.contact, .checkout-container-delivery, .all-jackets-container, .checkout-container, fieldset select, .img-container-checkout-success, .jacket-specific-title-container {
+  width: 90%;
+} 
+
+
+header form, nav, .img-home, .green-img, .women-jacket-products, .men-jacket-products, .selected-jacket, .women-jacket-products img, .men-jacket-products img, .img-welcomeback img, .hiking-benefits img, .original-jacket, .original-jacket img, .jacket-description-container, .img-checkout-success, .selected-jacket img, .input-container {
+  width: 100%;
+}
+
+
+.border, .border-summary {
+  max-width: 410px;
+}
+
+.original-jacket, .women-jacket-products, .men-jacket-products, .selected-jacket, .img-checkout-success {
+  height: 100%; 
+}
+
+ul {
+  padding: 0px;
+}
+
+li .a-about, .a-content, .sitemap a {
+  padding-bottom: 3px;
+}
+
+i {
+  padding: 0px 5px 0px 0px;
+}
+
+.pp-cookies {
+  padding: 0px 0px 10px 0px;
+}
+
+nav li {
+  padding: 10px 0px 10px 20px;
+}
+
+.circle-burgundy p, .circle-black p, .circle-coral p, .circle-orange p, .circle-white p, .circle-yellow p, .circle-brown p {
+  padding: 15px 0px 0px 0px;
+}
+
+.price {
+  padding: 15px 0px 0px 0px;
+}
+
+.space {
+  padding: 15px 0px;
+}
+
+.copy, nav {
+  padding: 20px 0px 0px 0px; 
+}
+
+#cart-checkout main .price, .yourcart, .yourinfo, .img-container-checkout-success  {
+  padding: 0px 0px 20px 0px;
+}
+
+#all-jackets main .below-img, 
+#jackets-women main .below-img,
+#jackets-men main .below-img {
+  padding: 20px 0px 15px 0px;
+}
+
+.space-above-success, .space-above-success-top {
+  padding: 30px;
+}
+
+.jackets-women-container, .jackets-men-container {
+  padding: 40px 0px;
+}
+
+.welcome-back {
+  padding: 0px 0px 40px 0px;
+}
+
+.space-cta {
+  padding: 45px 0px 0px 0px;
+}
+
+.space-form {
+  padding: 60px 0px;
+}
+
+.description-space {
+  padding: 20px 100px;
+}
+
+.item-four {
+  padding-left: 122px;
+}
+
+.item-one {
+  padding-left: 140px;
+}
+
+.item-two {
+  padding-left: 186px;
+}
+
+.checkout-container-delivery fieldset {
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+.item-three {
+  padding-left: 146px;
+  text-decoration: line-through;
+}
+
+header form {
+  padding: 11px 0px;
+  background: var(--green);
+}
+
+.jacket-info { 
+  margin: 40px auto -120px auto;
+}
+
+.logo, nav, hr, .slogan, .copy, .contact, #cart-checkout main fieldset, .selected-jacket img, .checkout-container-cart, .checkout-container-info, .checkout-container-delivery, footer ::placeholder, footer input[type="email"], .specific-jacket-container, .original-jacket img, .checkout-success-container, .img-container-checkout-success, .women-jacket-products img, .men-jacket-products img, .img-welcomeback img, .hiking-benefits img {
+  margin: 0 auto;
+}
+
+.contact-align {
+  display: flex;
+  justify-content: center;
+}
+
+#message {
+  padding-bottom: 100px;
+}
+
+.top-divider {
+  margin: 0px 0px 20px 0px;
+}
+
+footer hr {
+  margin: 15px auto 15px auto;
+}
+
+fieldset input {
+  margin: 20px auto 0px auto; 
+}
+
+.slogan, .pp-cookies li {
+  margin: 20px 0px 0px 0px;
+}
+
+.cart-img-container {
+  margin: 20px 10px 0px 20px;
+}
+
+.space-cart-info {
+  margin: 0px 20px 20px 20px;
+}
+
+.header-container {
+  margin: 34px;
+}
+
+.img-space {
+  margin: 40px 0px 0px 0px;
+}
+
+.input-container {
+  margin: 0px auto 40px auto;
+}
+
+.hr-half {
+  margin: 20px auto 50px;
+}
+
+.center-content {
+  margin: 60px 0px;
+}
+
+.h2-about {
+  margin: 20px auto 60px auto;
+}
+
+.about-container, .contact-container, .jacket-specific-container, .all-jackets-container, .checkout-container {
+  margin: 70px auto;
+}
+
+.jacket-specific-title-container {
+  margin: 80px auto 0px auto;
+}
+
+.space-jacket-color {
+  margin: 0px 0px 90px 0px;
+}
+
+.space-form-jacket {
+  margin: 0px 0px 170px 0px;
+}
+
+.item-five {
+  margin-left: 155px;
+}
+
+footer button {
+  padding: 5px 20px;
+  margin: 20px auto 0px auto;
+}
+
+footer form {
+  background: var(--grey-block);
+  padding: 50px 0px 0px 0px;
+  white-space: nowrap;
+}
+
+.sitemap {
+  background-color: var(--grey-block);
+}
+
+.circle-white, nav, fieldset select option, fieldset select {
+  background-color: var(--white);
+}
+
+.circle-black {
+  background-color: var(--black);
+}
+
+.circle-burgundy {
+  background-color: rgb(101, 49, 69);
+}
+
+.circle-coral {
+  background-color: rgb(247, 133, 102);
+}
+
+.circle-orange {
+  background-color: rgb(245, 144, 31);
+}
+
+.circle-yellow {
+  background-color: rgb(247, 196, 70);
+}
+
+.circle-brown {
+  background-color: rgb(133, 107, 95);
+}
+
+h2, p, ::placeholder, .copy, .slogan, .pp-cookies a, .h2-about, .openinghours, .price, .circle, .benefits-list li, legend, #cart-checkout main ::placeholder, .checkout-container-delivery, #jacket-specific-women main h3, #jacket-specific-men main h3, fieldset label, #about main p, #contact main p, .a-content, .contact ::placeholder {
+  font-family: var(--text-cta-paragraph);
+}
+
+header input[type="text"], header button, ::placeholder, .jacket-description-container {
+  color: var(--white);
+}
+
+a, .nav i, .nav-icons i, footer button, footer input[type="text"], #cart-checkout main ::placeholder, footer ::placeholder, .circle-burgundy:hover, .circle-black:hover, .circle-coral:hover, .circle-orange:hover, .circle-white:hover, .circle-yellow:hover, .circle-brown:hover, footer form, .contact ::placeholder {
+  color: var(--black);
+}
+
+hr {
+  color: var(--brown);
+}
+
+h2, .h2-about, .openinghours, .slogan, .welcome-back, legend {
+  color: var(--brown-text);
+}
+
+.a-content, .contact-info, .nav-itext {
+  color: var(--blue-text);
+}
+
+.copy  {
+  font-size: 12px;
+}
+
+.pp-cookies, .price, #jacket-specific-women main h3, #jacket-specific-men main h3 {
+  font-size: 14px;
+}
+
+p, checkoput-container-info > input[type="text"], footer button, #cart-checkout main form input, #about main p, contact-align p, .a-content, fieldset label, fieldset select, .contact ::placeholder {
+  font-size: 16px;
+}
+
+.nav-itext, .slogan, footer, #cart-checkout h2, legend {
+  font-size: 18px;
+}
+
+.openinghours {
+  font-size: 18px !important;
+}
+
+nav li, .h2-about, .space-cart-info h1 {
+  font-size: 22px;
+}
+
+h1, .h1-about, #contact main h1, #all-jackets main h1, #checkout-success h1, #jackets-women main h1, #jackets-men main h1, #cart-checkout .checkout-container h1 {
+  font-size: 28px;
+}
+
+header button, i {
+  font-size: x-large;
+}
+
+.hamburger-icon i {
+  font-size: xx-large;
+  padding: 6px 20px;
+}
+
+h1, h2, .h1-about, .h2-about, .openinghours, .cta, .cta-homepage, .slogan, #jacket-specific-women main h3, #jacket-specific-men main h3 {
+  font-weight: lighter;
+}
+
+.price, .description-style, .total, .item-five {
+  font-weight: bold;
+}
+
+header form, .sitemap, .slogan, .h-center,  #cart-checkout .border-summary h2, #cart-checkout main fieldset, footer input[type="email"], footer input[type="text"], footer ::placeholder, footer form, .copy, #jacket-specific-women main label, #jacket-specific-men main label, .jacket-description-container, .checkout-success-container, .contact form {
+  text-align: center;
+}
+
+.space-cart-info, fieldset select, fieldset input[type="text"], fieldset input[type="tel"], fieldset input[type="email"], fieldset input[type="date"], fieldset input[type="password"], .jacket-specific-title-container, .description-space {
+  text-align: left; 
+}
+
+.l-spacing, .cta, .subscribe {
+  letter-spacing: 0.5px;
+}
+
+nav a, header div a, .sitemap a, .a-content {
+  text-decoration: none;
+}
+
+header form {
+  border: none;
+}
+
+.circle-burgundy, .circle-black, .circle-coral, .circle-orange, .circle-white, .circle-yellow, .circle-brown {
+  border: var(--black) solid 0.5px;
+}
+
+.border, .border-summary {
+  padding-bottom: 20px;
+  border: solid var(--brown);
+}
+
+fieldset {
+  border-color: var(--brown) !important;
+  border: solid;
+}
+
+fieldset input[type="text"], fieldset input[type="tel"], fieldset input[type="email"], fieldset input[type="date"], fieldset input[type="password"], fieldset textarea {
+  padding: 10px 40px;
+  margin: 15px auto;  
+  border: 0.5px solid;
+  border-top-width: 0px;
+  border-radius: 5px;  
+  border-color: var(--blue);
+  outline-style: outset;
+  outline-width: 0.5px;
+  outline-color: var(--blue);
+}
+
+.contact form input, .contact form textarea {
+  width: 70%;
+}
+
+.cta, .cta-explore, .subscribe, header button, .hamburger-icon i, .circle, .women-jacket-products img, .men-jacket-products img, .original-jacket img, fieldset select {
+  cursor: pointer;
+}
+
+li, footer a {
+  list-style: none;
+  padding: 10px 0px;
+}
+
+
+.women-jacket-products img, .men-jacket-products img, .img-welcomeback img, .hiking-benefits img, .original-jacket img, .selected-jacket img  {
+  object-fit: cover;
+}
+
+::placeholder {
+  opacity: 70%; 
+}
+
+input[type="text"], header button {
+  background: transparent;
+  border-width: 0px;
+  outline: none;
+  box-shadow: none;
+}
+
+.bottom-divider {
+  top: 20px;
+}
+
+.logo-container {
+  top: 98px;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+.logo {
+  background: url(/images/10_02_22_RainyDays_Logo_Altered_Colors_default.png) no-repeat;
+  width: 170px;
+  height: 64px;
+  text-indent: -9999px;
+}
+
+.logo:hover {
+  filter: brightness(0%);
+}
+
+.img-container {
+  margin: 3px 0px 0px 0px;
+}
+
+.green-img {
+  background: url(/images/10_02_22_green_decor.png) no-repeat;
+  background-size: cover;
+  margin: 0px;
+  height: 80px;
+  filter: blur(80%);
+}
+
+.img-home {
+  background-size: cover;
+  background-position-x: left 8%;
+}
+
+.circle {
+  height: 20px;
+  width: 20px;
+  margin: 5px 10px 0px 0px;
+  color: transparent;
+  border-radius: 50%;  
+}
+
+.original-jacket img { 
+  max-width: 300px;
+  opacity: 90%;
+}
+
+.women-jacket-products img, .men-jacket-products img {
+  max-width: 400px;
+  opacity: 90%;
+}
+
+.selected-jacket img {
+  min-width: 50px;
+  max-width: 250px;
+  align-items: left;
+}
+
+.img-welcomeback img {
+  max-width: 380px;
+  border-radius: 50%;
+}
+
+.jacket-description-container {
+  margin: 0px 0px 80px 0px !important;
+  background: var(--green);
+}
+
+.original-jacket img:hover {
+  transition: all ease-out;
+  transform: scale(1.1);
+  opacity: 100%;
+}
+
+.women-jacket-products img:hover, .men-jacket-products img:hover {
+  transition: all ease-out;
+  transform: scale(1.1);
+  opacity: 100%;
+}
+
+.description-style {
+  width: fit-content;
+  padding-bottom: 1.5px;
+  border-bottom: 2px solid var(--white);
+}
+
+fieldset select {
+  padding: 10px 0px;
+  margin: 15px auto;
+  background: rgba(149, 168, 120, 0.7);
+  border-radius: 5px;
+}
+
+
+/* global animations and transitions */
+
+.linear-gradient-discount {
+  background: 
+    linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)),
+
+    linear-gradient(
+      to right,
+      var(--white),
+      var(--white),
+      var(--white));
+}
+
+.linear-gradient-nav,
+.linear-gradient-footer {
+  background: 
+    linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0)),
+
+    linear-gradient(
+      to right,
+      var(--black),
+      var(--black),
+      var(--black));
+}
+
+.linear-gradient-nav-itext,
+.linear-gradient-about {
+  background: 
+  linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0)),
+
+  linear-gradient(
+    to right,
+    var(--blue),
+    var(--blue),
+    var(--blue));
+}
+
+.linear-gradient-discount, 
+.linear-gradient-nav,
+.linear-gradient-nav-itext,
+.linear-gradient-footer,
+.linear-gradient-about {
+  text-decoration: none;
+  background-size: 100% 2px, 0 2px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s;
+  -o-transition: background-size 0.3s;
+  -moz-transition: background-size 0.3s;
+  -webkit-transition: background-size 0.3s;
+}
+
+.linear-gradient-discount:focus, .linear-gradient-discount:hover,
+.linear-gradient-active, .linear-gradient-nav:hover, 
+.linear-gradient-nav-itext:focus, .linear-gradient-nav-itext:hover,
+.linear-gradient-footer:focus, .linear-gradient-footer:hover,
+.linear-gradient-about:focus, .linear-gradient-about:hover {
+  background-size: 0 2px, 100% 2px;
+}
+
+
+/* Validation and error message*/
+
+.success {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  color: Green;
+ 
+}
+
+.formSuccess {
+  font-size: 18px;
+  padding: 20px;
+}
+
+.error {
+  border: 2px solid darkred !important;
+  color: darkred;
+  background: rgb(255, 0, 0, 0.1) !important; 
+  border-radius: 0px !important;
+  padding: 20px;
+  margin: 20px;
+  min-width: 290px !important;
+  max-width: 350px;
+  font: 16px arial;
+}
+
+#details .error {
+  margin-top: 220px !important;
+}
+
+.formError {
+  display: none;
+  margin: 0px 0px 30px 0px;
+  text-align: center;
+  font: 16px arial;
+  color: rgb(209, 10, 10);
+}
+
+/* cart indicator */
+
+.cart-indicator {
+  display: block;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 0px 0px 0px 0px;
+  color: black;
+  border-radius: 50%; 
+  margin-right: 20px;
+}
+
+
+/* Specific product page update */
+
+button {
+  cursor: pointer;
+}
+
+.size, .sizeTitle {
+  display: flex;
+  justify-content: left;  
+  width: 30%; 
+  font-family: var(--text-cta-paragraph) !important;
+}
+
+.size > input {
+  margin: 0px 0px 0px 5px !important;
+}
+
+.size label {
+  margin: 20px 15px 20px 5px;
+}
+
+
+.sizeTitle {
+  text-align: left !important;
+}
+
+
+.jacket-specific-title-container > div > h3 {
+  font-weight: bold !important;
+  background: var(--brown);
+  padding: 10px 10px 10px 10px !important;
+  max-width: 24%;
+  font-size: 16px !important;
+}
+
+.jacket-cta {
+  justify-content: left;
+}
